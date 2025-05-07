@@ -834,6 +834,7 @@ class HandSignatureControl extends ChangeNotifier {
       }
     }
 
+    _paths.clear();
     _paths.addAll(paths);
     notifyListeners();
   }
